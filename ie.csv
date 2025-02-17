@@ -1,0 +1,82 @@
+Date,Type,Category,Amount,Detail,Source
+31/12/24 at 11:36 AM,Expenses,Groceries,-200,Seasons,Shop
+31/12/24 at 11:38 AM,Incomes,Wages,1000,Trim,Tommy
+31/12/24 at 12:06 PM,Incomes,Loans,15000,Remittance,Raine Henry
+31/12/24 12:11,Expenses,Utilities,-650,Flow,Flow
+31/12/24 12:22,Expenses,Groceries,-100,Flour,Tiger
+31/12/24 12:26,Expenses,Personal,-2000,Household,Shop
+31/12/24 12:29,Expenses,Entertainment ,-600,Alcohol,Tiger
+31/12/24 12:29,Expenses,Entertainment ,-200,Weed,Tiger
+31/12/24 12:29,Expenses,Entertainment ,-100,Cigarettes,Tiger
+31/12/24 12:50,Expenses,Business,-500,Supplies,Tommy
+31/12/24 at 11:36 AM,Expenses,Groceries,-200,Seasons,Shop
+31/12/24 at 11:38 AM,Incomes,Wages,1000,Trim,Tommy
+31/12/24 at 12:06 PM,Incomes,Loans,15000,Remittance,Raine Henry
+31/12/24 12:11,Expenses,Utilities,-650,Flow,Flow
+31/12/24 12:22,Expenses,Groceries,-100,Flour,Tiger
+31/12/24 12:26,Expenses,Personal,-2000,Household,Shop
+31/12/24 12:29,Expenses,Entertainment ,-600,Alcohol,Tiger
+31/12/24 12:29,Expenses,Entertainment ,-200,Weed,Tiger
+31/12/24 12:29,Expenses,Entertainment ,-100,Cigarettes,Tiger
+31/12/24 12:50,Expenses,Business,-500,Supplies,Tommy
+
+31/12/24 16:07,Expenses,Entertainment ,-200,Weed,Tiger
+31/12/24 16:07,Expenses,Entertainment ,-200,Cigarettes,Tiger
+31/12/24 16:08,Expenses,Groceries,-100,Eating out ,Tiger
+31/12/24 16:08,Incomes ,Wages,1000,Trim,Tommy
+31/12/24 16:10,Expenses,Groceries,-200,Seasons,Barber
+02/01/25 18:15,Incomes ,Wages,500,Shave,Tommy
+03/01/25 23:14,Incomes ,Loans,15000,Remittance,Raine Henry
+03/01/25 23:15,Expenses,Groceries,-6500,Eating out ,Tiger
+04/01/25 17:07,Incomes ,Wages,1000,Trim,Tommy
+04/01/25 17:07,Incomes ,Wages,500,Shave,Tommy
+04/01/25 17:07,Incomes ,Wages,1000,Trim,Bigga
+
+16/01/25 05:49,Expenses,Entertainment ,-3000,Alcohol,Tiger
+16/01/25 09:10,Incomes ,Wages,1000,Trim,Barber
+16/01/25 13:10,Expenses,Utilities,-58,Utilities,Wayne Amberslie🎨
+16/01/25 13:11,Expenses,Entertainment ,-580,Entertainment ,Tiger
+16/01/25 13:17,Expenses,Entertainment ,-200,Entertainment ,Tiger
+16/01/25 13:22,Expenses,Groceries,-500,Drinks,Tiger
+16/01/25 13:22,Expenses,Groceries,-500,Eating out ,Tiger
+27/01/25 22:15,Expenses,Groceries,-400,Eating out ,Tiger
+27/01/25 22:16,Expenses,Entertainment ,-100,Weed,Tiger
+27/01/25 22:16,Expenses,Entertainment ,-100,Cigarettes,Tiger
+29/01/25 10:59,Expenses,Groceries,-200,Eating out ,Tiger
+29/01/25 11:00,Expenses,Entertainment ,-100,Weed,Tiger
+29/01/25 11:00,Expenses,Entertainment ,-100,Cigarettes,Tiger
+29/01/25 15:56,Expenses,Entertainment ,-100,Weed,Tiger
+29/01/25 15:56,Expenses,Entertainment ,-100,Cigarettes,Tiger
+29/01/25 22:06,Expenses,Groceries,-900,Eating out ,Tiger
+31/01/25 22:34,Expenses,Entertainment ,-2000,Alcohol,Tiger
+03/02/25 09:04,Expenses,Groceries,-500,Eating out ,Tiger
+03/02/25 11:19,Expenses,Travel,-558,tee,Joel Andem
+03/02/25 11:22,Expenses,Groceries,-200,Eating out ,Tiger
+03/02/25 12:08,Expenses,Personal,-5200,Bills,Joel Andem
+03/02/25 18:07,Incomes ,Wages,1000,Trim,Bigga
+03/02/25 21:34,Expenses,Groceries,-750,Eating out ,Tiger
+04/02/25 10:45,Expenses,Groceries,-900,Eating out ,Tiger
+04/02/25 20:50,Expenses,Groceries,-1300,Eating out ,Tiger
+05/02/25 17:50,Incomes ,Wages,1000,Trim,Bigz
+05/02/25 21:22,Expenses,Groceries,-840,Eating out ,Tiger
+06/02/25 09:53,Expenses,Groceries,-800,Eating out ,Tiger
+06/02/25 21:39,Expenses,Groceries,-1000,Eating out ,Tiger
+06/02/25 21:44,Expenses,Groceries,-400,Eating out ,Tiger
+08/02/25 21:55,Expenses,Groceries,-400,Eating out ,Tiger
+10/02/25 08:59,Expenses,Groceries,-250,Eating out ,Tiger
+10/02/25 21:32,Expenses,Entertainment ,-200,Weed,Tiger
+11/02/25 11:45,Incomes ,Wages,600,Kids Trim,Tommy
+11/02/25 11:46,Incomes ,Wages,600,Kids Trim,Tommy
+11/02/25 16:21,Expenses,Entertainment ,-200,Weed,Tiger
+11/02/25 21:33,Expenses,Groceries,-1000,Eating out ,Tiger
+12/02/25 09:24,error ,three,888,three,Wayne Amberslie🎨
+12/02/25 11:26,Expenses,Entertainment ,-150,Weed,Tiger
+12/02/25 11:26,Expenses,Entertainment ,-200,Cigarettes,Tiger
+12/02/25 16:37,Expenses,Groceries,-1200,Eating out ,Tiger
+12/02/25 21:50,Expenses,Entertainment ,-600,Weed,Tiger
+14/02/25 09:07,Expenses,Groceries,-650,Eating out ,Tiger
+14/02/25 14:50,Expenses,Groceries,-250,Eating out ,Tiger
+16/02/25 22:03,Expenses,Groceries,-450,Eating out ,Tiger
+17/02/25 11:55,Expenses,Entertainment ,-250,Weed,Tiger
+17/02/25 11:55,Expenses,Entertainment ,-100,Cigarettes,Tiger
+17/02/25 11:56,Expenses,Groceries,-1000,Eating out ,Tiger

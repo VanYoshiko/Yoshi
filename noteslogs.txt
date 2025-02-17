@@ -1,0 +1,340 @@
+
+📆 Thu, 16 Jan 2025 03:14
+  Date check❓
+⌚️ 03:17
+  Time ❓
+⌚️ 06:20
+  To paste from different registers is:
+“1p - pastes from reg 1
+<C-r>[N] paste INSERT mode
+⌚️ 08:15
+  To append to a macro:
+let @a=‘  +  <c-r>a▶️🔥🔥🔥
+⌚️ 08:24
+  Read only registers such as current file variable <%> can be used to paste current file name when typing in commandline!  Example: :!mk %:h📄📑
+- <c-r>%📑🔥 to paste filename in commandline and insert mode 
+⌚️ 09:02
+  <C-^> takes you to the ‘#’register , meaning the last buffer opened📋 
+⌚️ 10:17
+  To move a file using netrw:
+-<R> - then when path to file appears on bottom, edit it!✂️📄
+⌚️ 10:33
+  <mt> - to target directory 
+<mf>… - select as many files.
+<mm> - move files
+<mn> - copy files📑
+📆 Fri, 17 Jan 2025 07:02
+  
+⌚️ 22:47
+  <*>when cursor under word, used to start a search for that word🔎
+⌚️ 22:56
+  When in search <c,C> tomatch case or not case sensitive. <#> with cursor under word to start a  backward search for that word🔎
+⌚️ 23:04
+  <“\”> - this is the escape character. Used before special characters 
+Example :
+:/\<the\> 
+- “<“ & ”>” are used to search for only what are inside.🔎
+⌚️ 23:15
+-“<“ & ”>” are used to search for only what are inside.🔎
+📆 Sat, 18 Jan 2025 05:18
+  - :changes - brings a list of the which lines you edited!🔥🔥🔥🆕
+⌚️ 05:47
+  - :jump  shows list of jumps- searches;substitute, jumps↔️
+https://www.youtube.com/watch?v=9O4SxRwMUko&list=PLy7Kah3WzqrEjsuvhT46fr28Q11oa5ZoI&index=13&pp=iAQB🎦
+⌚️ 06:08
+  - 📍Marks <“[N or L]> takes you to the line that is marked 
+- <“[N or L] moves to exact position of mark!
+⌚️ 06:17
+  - <:delmarks!> Cleans whole list📍
+📆 Mon, 20 Jan 2025 22:52
+  - :ve[rsion]  - A list of all available features 👀 Ish has :ter[minal] and a-shell doesn’t ℹ️🔥🔥🔥
+
+📆 Fri, 24 Jan 2025 07:50
+  - <cat -n test.txt foobar.txt>ℹ️▶️
+Displays contents of 2 files. [n] for line number 48m30s
+
+⌚️ 07:57
+  - more - This ommand displays entire content  from the top of file.ℹ️ 
+- less - displays the last page of file. Scroll backwards to see full fileℹ️
+50m
+⌚️ 08:07
+🎦 ://www.youtube.com/watch?v=avg65oY7sj4🎦Full tutorial of Linux command line!19hrs👀 
+⌚️ 08:08
+  - To add text to a file, “>” symbol can be used. Example:
+headline -n25 foobar.txt > test.txt
+{cat, tail} can also be used
+56m0s
+⌚️ 08:29
+  - To append sdout to a file,  ”>>”. Doesn’t overwrite existing file or makes a new file. Example:
+ls -n foobar.txt >> output.txt 58 m
+
+⌚️ 09:25
+    When using “cp, mv” command to move a file “.” Can be used as current destination . 67m
+
+⌚️ 09:46
+  - mv [v] - verbose shows a message 
+           [i] - ask before action
+           [f] - force overwrites existing file
+           [n] - no clobber doesn’t overwrite 
+70m
+⌚️ 10:05
+  touch -v ~/Directory/foobar{a,b,c,}.txt
+This creates filea.txt, fileb.txt, filec.txt
+78m
+
+⌚️ 10:20
+  - cp -fvu  - this copies files that have been updated. Example:
+cp -fvu foo.txt bar.txt test.txt /Documents/directory
+84m
+
+⌚️ 10:30
+  touch NewDirectry/foobar{1..5}.txt
+This creates a range of files. 
+- <c-l> - clears terminal screen 
+88m
+⌚️ 14:36
+  Made a config folder to contain all config files. Made links to target files in a-shell. Now I can edit all files ina-shell and will show editing in the source file.
+📆 Sat, 25 Jan 2025 07:12
+  - Inode - files carry a name and a id number called inodes. Hard and symbolic links carry the same inodes and the source file. Indicates that they are not separate files but link is just the address to the source file.
+⌚️ 14:10
+  -ln -s /source/file  /target/.vimrc 
+ Symbolic link for ish works also. Will now put all configuration files for a-shell and ish into iCloud directory 
+📆 Sun, 26 Jan 2025 14:55
+  Popup windows
+⌚️ 18:32
+  https://www.youtube.com/watch?v=1AOhfnokacE🎦
+Popup window
+⌚️ 22:02
+  Indicators (chars in the same column are mutually exclusive):
+		u	an unlisted buffer (only displayed when [!] is used)
+			   |unlisted-buffer|
+		 %	the buffer in the current window
+		 #	the alternate buffer for ":e #" and CTRL-^
+		  a	an active buffer: it is loaded and visible
+		  h	a hidden buffer: It is loaded, but currently not
+			   displayed in a window |hidden-buffer|
+		   -	a buffer with 'modifiable' off
+		   =	a readonly buffer
+		    +	a modified buffer
+		    x   a buffer with read errors
+
+📆 Mon, 27 Jan 2025 22:18
+  Pushed config file to GitHub with ish   💾
+📆 Tue, 28 Jan 2025 08:31
+  Made test.txt, foo.txt and bar.txt
+Hard links for a-Shell for declutterring! 📃💡
+⌚️ 09:06
+  - ‘q[a-z][A-Z][n]’ starts prompt to enter macro and ‘q’ to end!
+  ‘@[a-z][A-Z][n]’ executes macro!
+  ‘ “[aA-zZ | N]p’   Outputs macro        to be edited ❓📋
+⌚️ 09:37
+  - ‘<c-r>[aA-zZ | n]’ To edit register  in insert mode. 📋
+ ‘ “[aA-zZ | n]yiW’  Yanks edited text to register! 📋
+
+⌚️ 12:29
+  ⌚️ 12:14
+  Testing ~com~apple~CloudDocs/configs/foobar.txt⚠️
+⌚️ 12:31
+  foobar.txt shortcut set up to iCloud!🔗📄
+
+⌚️ 19:52
+  - ‘<e:$VIMRUNTIME/compiler>’ -
+This shows a list of all compilers available on vim!🗄️🔥
+⌚️ 22:10
+  Substitute;Search;RegEx-editing filesℹ️
+https://www.youtube.com/watch?v=U9bsqulWgqc🎦📑📄
+📆 Wed, 29 Jan 2025 00:40
+  
+📆 Wed, 29 Jan 2025 08:14
+  - <cat /etc/passwd> - list of all users 🧑‍🧑‍🧒
+📆 Wed, 29 Jan 2025 10:18
+  - <stat [filename]> shows all properties of a file📄
+📆 Wed, 29 Jan 2025 10:34
+  - <wc [filename] counts lines, words, characters in file 294m📄
+
+📆 Wed, 29 Jan 2025 10:44
+  - sort [filename] [-lu]   Sorts content of files.
+[-l] list items.
+ [-u]  Returns unique items only.
+298m📄
+📆 Wed, 29 Jan 2025 20:06
+  - <let @[A-Z | N] = “Hello World “>=
+ To add to register!
+“[A-Z | N] paste from registration 
+
+📆 Mon, 03 Feb 2025 08:37
+  To run a command from history is to:
+![N]   -  [N] is the history number 
+📆 Mon, 03 Feb 2025 12:32
+  - Disrotube awk command ▶️
+https://m.youtube.com/watch?v=9YOZmI-zWok&pp=ygUORGlzdHJvdHViZSBhd2s%3D🎦
+📆 Mon, 03 Feb 2025 12:35
+  
+📆 Mon, 03 Feb 2025 12:57
+  cat [filename] | awk -F “,” “{print $6} | sort | uniq ▶️
+print file to be separated by “,” and print column 6 to be sorted to remove duplicate!🔥
+📆 Mon, 03 Feb 2025 14:28
+  column  -t -s “,” [filename]▶️
+Displays table format-t and field seperated-s with “,”📝
+https://m.youtube.com/watch?v=NK3kbL7Mipc&pp=ygUXY29sdW1uIGNvbW1hbmQgaW4gbGludXg%3D🎦Distrotube Columns
+
+📆 Mon, 03 Feb 2025 18:48
+  Seperate multiple commands with “;” Example:
+
+cd /mnt/configs;touch noteslogs.txt;cp foobar.txt noteslogs.txt;ln -sf noteslogs.txt▶️   500m
+
+📆 Tue, 04 Feb 2025 01:07
+  apk add tree  
+Added tree to ish📦
+📆 Tue, 04 Feb 2025 06:12
+  - <gf> ▶️            Jumps to any file of the filename that the cursor is under!🔥🔥🔥
+📆 Tue, 04 Feb 2025 08:32
+  find [H-L] [path]… [options] [actions]
+Example:
+find . -name “*.txt”▶️
+ 306m 50s -  316m 45s
+📆 Tue, 04 Feb 2025 08:51
+  https://youtube.com/playlist?list=PLy7Kah3WzqrEjsuvhT46fr28Q11oa5ZoI&si=O7yJSiMXzqhqwBij🎦 PLAYLIST VIM
+TheFrugalComputerGuy
+📆 Tue, 04 Feb 2025 09:21
+  find . -mtime -7▶️
+Find files modified in a specified time period. 317m 
+📆 Tue, 04 Feb 2025 09:32
+  find . ctime -7 
+Finds change time of files 
+find . atime -7
+Finds access times for files 
+find . [amc]min -60 
+Finds [access,modified,change] times for files. 319m
+📆 Tue, 04 Feb 2025 11:47
+  https://youtube.com/playlist?list=PLnLrhxejNKJ7EK0Vmk35czfC4QlY9Inz5&si=kc-ycpdQQy4sFySh🎦
+Installation for ish 
+📆 Wed, 05 Feb 2025 10:05
+  🔥
+📆 Wed, 05 Feb 2025 10:07
+  Install plugins to ish and a-Shell:
+   - ale
+   - vim-lsp 
+Downloaded zip file to shared dir.:
+    -com-apple-icloud/configs/
+          plugins/
+Unzipped files in same directory, deleted zip files.
+     - mkdir .vim/pack/plugins/start
+     - cd ~/Documents/.vim/pack/                    
+             plugins/start
+     - ln -s /mnt/configs/plugins/start
+             /ale
+     - ln -s /mnt/configs/plugins/start
+             /vim-lsp🔌
+
+📆 Wed, 05 Feb 2025 22:40
+  Need to add language server packages for Ale:
+   First  I added a couple more tools
+       -  apk add py3-pip
+       - pip install --upgrade pip       
+              setuptools
+Language Server packages 
+      - pip install flake8
+      - pip install mypy
+      - pip install fu
+      - pip install ruff
+   Added two more necessary pack.
+     - apk add nodejs npm
+          - node -v
+          - npm -v
+     -npm install -g pyright
+     - pyright --version
+Installed plugin manager 
+     - curl -fLo ~/.vim/autoload/.    
+           plug.vim --create-dirs \
+     - https://
+         raw.githubusercontent.com/
+         junegunn/vim-plug/master/
+         plug.vim
+📆 Wed, 05 Feb 2025 23:08
+  Tested vim-plug by installing vim-lsp-ale, which is used for integrating vim-lsp and ale.
+Installed by putting below in .vimrc
+    -  call plug#begin('~/.vim/.               
+                 plugged')
+          Plug 'rhysd/vim-lsp-ale'
+       call plug#end()
+Then restarted .vimrc and ran:
+      - PlugInstall 
+📆 Thu, 06 Feb 2025 11:20
+  Grep to find a regular expression in a file. Example:
+   grep 🎦 noteslogs.txt
+Finds all lines with 🎦
+   grep -iwn 
+       -i is for case sensitive 
+       -w finds whole words
+       -n Prints line numbers
+       -c count  how many    
+             appearances.
+📆 Thu, 06 Feb 2025 12:23
+            sed 
+Stream editor. Used to change text.
+367m
+📆 Thu, 06 Feb 2025 16:28
+  - tr  [-cds]  STRING1 [STRING2]
+      -c     Compliments string1
+      -d     Deletes input characters coded
+      -s     Squeezes multiple outputs of 
+               string2 into one
+Essed 
+rxample:
+             tr 
+	     356m
+
+
+📆 Fri, 07 Feb 2025 17:40
+  global-variable 
+📆 Sat, 08 Feb 2025 10:32
+       find
+Wildcards used with find:
+
+     *                    Glob is  used to replace one or more characters 
+     ?                  This is used to replace  any single character 
+     [ ]                This is used to replace any single character 
+     ^[]                 Any line that starts with
+     [^Aa]              Any string that does NOT start with.
+     ^[^Aa]             Any line that doesn't start with.
+     []$                Anything that ends with. 
+310m
+
+
+⌚️ 10:36
+  Example:
+     find . -name ‘*.txt’
+
+⌚️ 21:53
+  
+⌚️ 23:33
+  :autocmd BufNewFile * :write
+         ^          ^ ^
+         |          | |
+         |          | The command to run.
+         |          |
+         |          A "pattern" to filter the event.
+         |
+         The "event" to watch for.
+
+https://learnvimscriptthehardway.stevelosh.com/chapters/12.html🔗
+📆 Sun, 09 Feb 2025 13:45
+  NOTES: ish does not have ‘+completion’ in this “version” only a-Shell!
+Can download apk install!
+⌚️ 18:33
+            Double Qoutes
+To apple qoutes to beginning or end of a list:
+   - enter visual block mode to select all line to be modified.
+   - enter commandline mode with:
+      :”<,”> norm I”
+      :”<,”> norm $a”
+📆 Mon, 10 Feb 2025 04:27
+  
+⌚️ 08:58
+  
+⌚️ 11:33
+        bc
+This is a basic calculator for terminal.🧮🔥
+⌚️ 21:32
+  
