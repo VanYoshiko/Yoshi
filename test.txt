@@ -1,0 +1,24 @@
+weed
+<cigarette>
+<rizzla>
+alcohol
+lighter
+rice 
+flour
+chicken
+rice
+flour
+bread
+fish
+<juice>
+<seasons>
+<lighter>
+diwi<>€ýaF<p
+diwi<>€ýaF<p
+nnoremap <space>< diwi<>€ýaP
+hello my name is ssig
+
+-- 
+Steve Losh
+steve@stevelosh.com
+

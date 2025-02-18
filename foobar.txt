@@ -1,0 +1,179 @@
+
+📆 Thu, 16 Jan 2025 03:14
+  Date check❓
+⌚️ 03:17
+  Time ❓
+⌚️ 06:20
+  To paste from different registers is:
+“1p - pastes from reg 1
+<C-r>[N] paste INSERT mode
+⌚️ 08:15
+  To append to a macro:
+let @a=‘  +  <c-r>a▶️🔥🔥🔥
+⌚️ 08:24
+  Read only registers such as current file variable <%> can be used to paste current file name when typing in commandline!  Example: :!mk %:h📄📑
+- <c-r>%📑🔥 to paste filename in commandline and insert mode 
+⌚️ 09:02
+  <C-^> takes you to the ‘#’register , meaning the last buffer opened📋 
+⌚️ 10:17
+  To move a file using netrw:
+-<R> - then when path to file appears on bottom, edit it!✂️📄
+⌚️ 10:33
+  <mt> - to target directory 
+<mf>… - select as many files.
+<mm> - move files
+<mn> - copy files📑
+📆 Fri, 17 Jan 2025 07:02
+  
+⌚️ 22:47
+  <*>when cursor under word, used to start a search for that word🔎
+⌚️ 22:56
+  When in search <c,C> tomatch case or not case sensitive. <#> with cursor under word to start a  backward search for that word🔎
+⌚️ 23:04
+  <“\”> - this is the escape character. Used before special characters 
+Example :
+:/\<the\> 
+- “<“ & ”>” are used to search for only what are inside.🔎
+⌚️ 23:15
+-“<“ & ”>” are used to search for only what are inside.🔎
+📆 Sat, 18 Jan 2025 05:18
+  - :changes - brings a list of the which lines you edited!🔥🔥🔥🆕
+⌚️ 05:47
+  - :jump  shows list of jumps- searches;substitute, jumps↔️
+https://www.youtube.com/watch?v=9O4SxRwMUko&list=PLy7Kah3WzqrEjsuvhT46fr28Q11oa5ZoI&index=13&pp=iAQB🎦
+⌚️ 06:08
+  - 📍Marks <“[N or L]> takes you to the line that is marked 
+- <“[N or L] moves to exact position of mark!
+⌚️ 06:17
+  - <:delmarks!> Cleans whole list📍
+📆 Mon, 20 Jan 2025 22:52
+  - :ve[rsion]  - A list of all available features 👀 Ish has :ter[minal] and a-shell doesn’t ℹ️🔥🔥🔥
+
+📆 Fri, 24 Jan 2025 07:50
+  - <cat -n test.txt foobar.txt>ℹ️▶️
+Displays contents of 2 files. [n] for line number 48m30s
+
+⌚️ 07:57
+  - more - This ommand displays entire content  from the top of file.ℹ️ 
+- less - displays the last page of file. Scroll backwards to see full fileℹ️
+50m
+⌚️ 08:07
+🎦 ://www.youtube.com/watch?v=avg65oY7sj4🎦Full tutorial of Linux command line!19hrs👀 
+⌚️ 08:08
+  - To add text to a file, “>” symbol can be used. Example:
+headline -n25 foobar.txt > test.txt
+{cat, tail} can also be used
+56m0s
+⌚️ 08:29
+  - To append sdout to a file,  ”>>”. Doesn’t overwrite existing file or makes a new file. Example:
+ls -n foobar.txt >> output.txt 58 m
+
+⌚️ 09:25
+    When using “cp, mv” command to move a file “.” Can be used as current destination . 67m
+
+⌚️ 09:46
+  - mv [v] - verbose shows a message 
+           [i] - ask before action
+           [f] - force overwrites existing file
+           [n] - no clobber doesn’t overwrite 
+70m
+⌚️ 10:05
+  touch -v ~/Directory/foobar{a,b,c,}.txt
+This creates filea.txt, fileb.txt, filec.txt
+78m
+
+⌚️ 10:20
+  - cp -fvu  - this copies files that have been updated. Example:
+cp -fvu foo.txt bar.txt test.txt /Documents/directory
+84m
+
+⌚️ 10:30
+  touch NewDirectry/foobar{1..5}.txt
+This creates a range of files. 
+- <c-l> - clears terminal screen 
+88m
+⌚️ 14:36
+  Made a config folder to contain all config files. Made links to target files in a-shell. Now I can edit all files ina-shell and will show editing in the source file.
+📆 Sat, 25 Jan 2025 07:12
+  - Inode - files carry a name and a id number called inodes. Hard and symbolic links carry the same inodes and the source file. Indicates that they are not separate files but link is just the address to the source file.
+⌚️ 14:10
+  -ln -s /source/file  /target/.vimrc 
+ Symbolic link for ish works also. Will now put all configuration files for a-shell and ish into iCloud directory 
+📆 Sun, 26 Jan 2025 14:55
+  Popup windows
+⌚️ 18:32
+  https://www.youtube.com/watch?v=1AOhfnokacE🎦
+Popup window
+⌚️ 22:02
+  Indicators (chars in the same column are mutually exclusive):
+		u	an unlisted buffer (only displayed when [!] is used)
+			   |unlisted-buffer|
+		 %	the buffer in the current window
+		 #	the alternate buffer for ":e #" and CTRL-^
+		  a	an active buffer: it is loaded and visible
+		  h	a hidden buffer: It is loaded, but currently not
+			   displayed in a window |hidden-buffer|
+		   -	a buffer with 'modifiable' off
+		   =	a readonly buffer
+		    +	a modified buffer
+		    x   a buffer with read errors
+
+📆 Mon, 27 Jan 2025 22:18
+  Pushed config file to GitHub with ish   💾
+📆 Tue, 28 Jan 2025 08:31
+  Made test.txt, foo.txt and bar.txt
+Hard links for a-Shell for declutterring! 📃💡
+⌚️ 09:06
+  - ‘q[a-z][A-Z][n]’ starts prompt to enter macro and ‘q’ to end!
+  ‘@[a-z][A-Z][n]’ executes macro!
+  ‘ “[aA-zZ | N]p’   Outputs macro        to be edited ❓📋
+⌚️ 09:37
+  - ‘<c-r>[aA-zZ | n]’ To edit register  in insert mode. 📋
+ ‘ “[aA-zZ | n]yiW’  Yanks edited text to register! 📋
+
+⌚️ 12:29
+  ⌚️ 12:14
+  Testing ~com~apple~CloudDocs/configs/foobar.txt⚠️
+⌚️ 12:31
+  foobar.txt shortcut set up to iCloud!🔗📄
+
+⌚️ 19:52
+  - ‘<e:$VIMRUNTIME/compiler>’ -
+This shows a list of all compilers available on vim!🗄️🔥
+⌚️ 22:10
+  Substitute;Search;RegEx-editing filesℹ️
+https://www.youtube.com/watch?v=U9bsqulWgqc🎦📑📄
+📆 Wed, 29 Jan 2025 00:40
+  
+📆 Wed, 29 Jan 2025 08:14
+  - <cat /etc/passwd> - list of all users 🧑‍🧑‍🧒
+📆 Wed, 29 Jan 2025 10:18
+  - <stat [filename]> shows all properties of a file📄
+📆 Wed, 29 Jan 2025 10:34
+  - <wc [filename] counts lines, words, characters in file 294m📄
+
+📆 Wed, 29 Jan 2025 10:44
+  - sort [filename] [-lu]   Sorts content of files.
+[-l] list items.
+ [-u]  Returns unique items only.
+298m📄
+📆 Wed, 29 Jan 2025 20:06
+  - <let @[A-Z | N] = “Hello World “>=
+ To add to register!
+“[A-Z | N] paste from registration 
+
+📆 Mon, 03 Feb 2025 08:37
+  To run a command from history is to:
+![N]   -  [N] is the history number 
+📆 Mon, 03 Feb 2025 12:32
+  - Disrotube awk command ▶️
+https://m.youtube.com/watch?v=9YOZmI-zWok&pp=ygUORGlzdHJvdHViZSBhd2s%3D🎦
+📆 Mon, 03 Feb 2025 12:35
+  
+📆 Mon, 03 Feb 2025 12:57
+  cat [filename] | awk -F “,” “{print $6} | sort | uniq ▶️
+print file to be separated by “,” and print column 6 to be sorted to remove duplicate!🔥
+📆 Mon, 03 Feb 2025 14:28
+  column  -t -s “,” [filename]▶️
+Displays table format-t and field seperated-s with “,”📝
+https://m.youtube.com/watch?v=NK3kbL7Mipc&pp=ygUXY29sdW1uIGNvbW1hbmQgaW4gbGludXg%3D🎦Distrotube Columns
