@@ -1,0 +1,4 @@
+echo "Vy/" >> .gitignore
+echo "foobar.txt" >> .gitignore
+echo "plugins/" >> .gitignore
+echo "test.txt" >> .gitignore
